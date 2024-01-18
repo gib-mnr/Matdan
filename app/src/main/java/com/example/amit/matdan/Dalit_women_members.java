@@ -26,6 +26,6 @@ public class Dalit_women_members extends AppCompatActivity {
         t.setText(" भीमदत्त नगरपालिकाका दलित महिला सदस्य पदका उम्मेदवारको नामावली");
 
         member_web.getSettings().setBuiltInZoomControls(true);
-        member_web.loadUrl("file:///android_asset/women_member_list.html");
+        member_web.loadUrl("file:///android_asset/dalit_women_members.html");
     }
 }

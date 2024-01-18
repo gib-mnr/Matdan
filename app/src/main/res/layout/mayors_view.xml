@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    >
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:src="@drawable/tree"
+        android:id="@+id/mayor_sign"
+        android:contentDescription="Voters_Sign"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Padam Bogati"
+        android:textStyle="bold"
+        android:id="@+id/mayor_name"
+        android:layout_above="@+id/mayor_party"
+        android:layout_toEndOf="@+id/mayor_sign"
+        android:textAlignment="center"
+        android:textColor="#607D8B"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mayor_party"
+        android:text="Nepali Congress"
+        android:textSize="15sp"
+        android:layout_alignBottom="@+id/mayor_sign"
+        android:layout_toEndOf="@+id/mayor_sign"
+        android:textAlignment="center"/>
+</RelativeLayout>

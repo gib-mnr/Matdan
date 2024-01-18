@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="01dp"
+    android:background="@color/material_blue_grey_900">
+    >
+<WebView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/web_marque"
+    android:textDirection="firstStrong"
+    >
+</WebView>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainlist"
+        android:padding="2dp"
+        android:divider="#f11455b1"
+        android:dividerHeight="02dp"
+        android:layout_marginLeft="04sp"
+        android:layout_marginRight="04sp"
+        android:layout_above="@+id/btn"
+        android:background="#002633"
+        android:layout_below="@+id/web_marque"
+        android:layout_marginTop="01dp"
+
+        >
+    </ListView>
+
+ <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..@exmaple.com"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:id="@+id/txt"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/mainlist"
+        android:autoLink="web"/>
+    -->
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:text="About us"
+        android:background="@color/material_blue_grey_800"
+        android:textSize="13dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignStart="@+id/mainlist"
+        android:id="@+id/btn"
+        android:padding="3dp"
+        />
+</RelativeLayout>
+

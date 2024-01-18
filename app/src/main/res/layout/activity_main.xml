@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#05980a"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <!-- 0080ff-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="190dp"
+    android:layout_height="190dp"
+    android:background="@drawable/haateamalo"
+    android:focusable="false"
+    android:padding="10dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="0.13"
+    android:layout_margin="130dp">
+
+
+
+
+
+</RelativeLayout>
+</LinearLayout>

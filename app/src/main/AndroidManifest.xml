@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amit.matdan">
+
+
+<uses-permission android:name = "android.permission.INTERNET">
+
+</uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/matdaan"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Entrylevel_1">
+            <intent-filter>
+                <action android:name="com.example.amit.matdan.ENTRYLEVEL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Candidate_Posts">
+            <intent-filter>
+                <action android:name="com.example.amit.matdan.CANDIDATE_POSTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Mayors_List">
+            <intent-filter>
+                <action android:name="com.example.amit.matdan.MAYORS_LIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Deputy_Mayor">
+            <intent-filter>
+                <action android:name="com.example.amit.matdan.DEPUTY_MAYOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Candidate_List">
+            <intent-filter>
+                <action android:name="com.example.amit.matdan.CANDIDATE_LIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".How_to_vote">
+            <intent-filter>
+                <action android:name="com.example.amit.matdan.HOW_TO_VOTE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Members">
+            <intent-filter>
+                <action android:name="com.example.amit.matdan.MEMBERS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Women_members">
+            <intent-filter>
+                <action android:name="com.example.amit.matdan.WOMEN_MEMBERS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Dalit_women_members">
+            <intent-filter>
+                <action android:name="com.example.amit.matdan.DALIT_WOMEN_MEMBERS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Namuna_Matpatra">
+            <intent-filter>
+                <action android:name="com.example.amit.matdan.NAMUNA_MATPATRA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Madan_places">
+            <intent-filter>
+                <action android:name="com.example.amit.matdan.MADAN_PLACES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".About_Us">
+            <intent-filter>
+                <action android:name="com.example.amit.matdan.ABOUT_US" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

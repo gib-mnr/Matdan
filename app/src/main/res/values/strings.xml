@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Matdan</string>
+
+    
+    <string-array name="posts">
+        <item>1.Mayor</item>
+        <item>2.Deputy Mayor</item>
+        <item>3.Ward Chairperson</item>
+        <item>4.Member</item>
+        <item>5.Woman Member</item>
+        <item>6.Dalit Woman Member</item>
+    </string-array>
+
+    <string-array name="ward_no">
+        <item>      नेपाली काँग्रेस          </item>
+        <item>      ने.क पा. एमाल         </item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+</resources>
